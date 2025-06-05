@@ -1,0 +1,148 @@
+# 2025年考研数学一高挑战试卷
+
+**考试时间：180分钟    满分：150分**
+
+---
+
+## 一、单项选择题（每小题5分，共40分）
+
+**1.** 设函数 $f(x) = x^3 - 3x^2 + 2x + a$，若存在实数 $c$，使得对任意 $x \in [0,2]$，都有 $f(x) \leq f(c)$，则实数 $a$ 的取值范围是
+
+(A) $a \geq 0$    (B) $a \geq -\frac{2}{27}$    (C) $a \geq \frac{2}{27}$    (D) $a \leq 0$
+
+**2.** 已知数列 $\{a_n\}$ 满足 $a_1 = 1$，$a_{n+1} = \frac{a_n}{1+2a_n}$，则 $\lim_{n \to \infty} na_n$ 等于
+
+(A) $\frac{1}{2}$    (B) $1$    (C) $2$    (D) 不存在
+
+**3.** 设 $A$ 为 $n$ 阶实对称矩阵，$\lambda_1 \geq \lambda_2 \geq \cdots \geq \lambda_n$ 为 $A$ 的特征值。记 $\text{tr}(A^k) = \sum_{i=1}^n \lambda_i^k$，则下列结论中错误的是
+
+(A) $\text{tr}(A^2) \geq \frac{1}{n}[\text{tr}(A)]^2$    
+(B) $\text{tr}(A^4) \geq \frac{1}{n}[\text{tr}(A^2)]^2$    
+(C) $|\det(A)| \leq \left(\frac{\text{tr}(A)}{n}\right)^n$    
+(D) $\text{tr}(A^3) \geq \frac{1}{n}[\text{tr}(A)]^3$
+
+**4.** 设随机变量 $X \sim N(0,1)$，$Y = X^2$，$Z = |X|$，则下列说法正确的是
+
+(A) $\text{Cov}(Y,Z) = 0$    
+(B) $Y$ 与 $Z$ 相互独立    
+(C) $\text{Cov}(Y,Z) = \frac{2}{\pi}$    
+(D) $\text{Cov}(Y,Z) = \sqrt{\frac{2}{\pi}}$
+
+**5.** 已知 $\int_0^{\frac{\pi}{2}} \frac{\sin^{2n+1} x}{\sin^{2n+1} x + \cos^{2n+1} x} dx$，当 $n \to \infty$ 时的极限值为
+
+(A) $0$    (B) $\frac{\pi}{4}$    (C) $\frac{\pi}{2}$    (D) 不存在
+
+**6.** 设 $f(x) = xe^{-x^2}$，$g(x) = x^2 e^{-x^2}$，在区间 $(0,+\infty)$ 上，下列结论正确的是
+
+(A) $f(x) \geq g(x)$ 恒成立    
+(B) $f(x) \leq g(x)$ 恒成立    
+(C) 存在唯一 $x_0 > 0$ 使得 $f(x_0) = g(x_0)$    
+(D) $f(x) = g(x)$ 有无穷多个解
+
+**7.** 设 $A = \begin{pmatrix} 1 & 1 & 1 \\ 1 & 1 & 1 \\ 1 & 1 & 1 \end{pmatrix}$，$B = \begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 0 \end{pmatrix}$，则矩阵方程 $AX = B$ 
+
+(A) 无解    
+(B) 有唯一解    
+(C) 有无穷多解，且解集是一个2维子空间    
+(D) 有无穷多解，但解集不是子空间
+
+**8.** 设 $X_1, X_2, \ldots, X_n$ 是来自总体 $X \sim \text{Exp}(\lambda)$ 的样本，$\bar{X} = \frac{1}{n}\sum_{i=1}^n X_i$，则 $P\{X_1 < \bar{X}\}$ 等于
+
+(A) $\frac{1}{2}$    (B) $\frac{1}{e}$    (C) $1 - \frac{1}{e}$    (D) $\frac{n-1}{n}$
+
+---
+
+## 二、多项选择题（每小题5分，共20分）
+
+**9.** 设函数 $f(x)$ 在 $[a,b]$ 上连续，在 $(a,b)$ 内可导，且 $f(a) = f(b) = 0$。下列结论中正确的有
+
+(A) 存在 $\xi \in (a,b)$ 使得 $f'(\xi) = 0$    
+(B) 存在 $\xi \in (a,b)$ 使得 $f'(\xi) = \frac{f(\xi)}{\xi - a}$    
+(C) 存在 $\xi \in (a,b)$ 使得 $f'(\xi) = \frac{f(\xi)}{b - \xi}$    
+(D) 存在 $\xi \in (a,b)$ 使得 $(b-\xi)f'(\xi) = f(\xi)$
+
+**10.** 设 $A$ 为 $n$ 阶可逆矩阵，$\alpha$ 为 $n$ 维非零列向量，矩阵 $B = A + \alpha\alpha^T$。下列结论正确的有
+
+(A) 若 $\alpha^T A^{-1} \alpha = -1$，则 $B$ 不可逆    
+(B) 若 $\alpha^T A^{-1} \alpha \neq -1$，则 $\det(B) = \det(A)(1 + \alpha^T A^{-1} \alpha)$    
+(C) 若 $B$ 可逆，则 $B^{-1} = A^{-1} - \frac{A^{-1}\alpha\alpha^T A^{-1}}{1 + \alpha^T A^{-1} \alpha}$    
+(D) $\text{rank}(B) = \text{rank}(A) + 1$
+
+**11.** 设随机变量 $X$ 的概率密度函数为 $f(x) = \frac{1}{2}e^{-|x|}$ ($-\infty < x < +\infty$)，$Y = X^2$，则
+
+(A) $Y$ 的概率密度函数为 $f_Y(y) = \frac{1}{2\sqrt{y}}e^{-\sqrt{y}}$ ($y > 0$)    
+(B) $E[Y] = 2$    
+(C) $\text{Var}(Y) = 8$    
+(D) $P\{|X| > t\} = e^{-t}$ ($t > 0$)
+
+**12.** 关于幂级数 $\sum_{n=1}^{\infty} \frac{(-1)^n}{n} x^{2n}$，下列结论正确的有
+
+(A) 收敛半径为 $1$    
+(B) 在 $x = 1$ 处收敛    
+(C) 在 $x = -1$ 处收敛    
+(D) 其和函数在收敛域内可以表示为 $\ln(1+x^2)$
+
+---
+
+## 三、填空题（每小题5分，共20分）
+
+**13.** 设 $f(x) = \begin{cases} x^2 \sin \frac{1}{x}, & x \neq 0 \\ 0, & x = 0 \end{cases}$，则 $f'(0) = $ ______。
+
+**14.** 已知矩阵 $A = \begin{pmatrix} 2 & -1 & 0 \\ -1 & 2 & -1 \\ 0 & -1 & 2 \end{pmatrix}$，则 $A^{-1}$ 的第一行第一列元素为 ______。
+
+**15.** 设随机变量 $X$ 服从参数为 $n, p$ 的二项分布，$Y$ 服从参数为 $m, p$ 的二项分布，且 $X$ 与 $Y$ 相互独立，则 $P\{X = k | X + Y = r\}$ (其中 $0 \leq k \leq \min(n,r)$) = ______。
+
+**16.** 曲线 $y = x^3 - 3x$ 在点 $(1,-2)$ 处的曲率半径为 ______。
+
+---
+
+## 四、解答题（每小题14分，共70分）
+
+**17.** 设函数 $f(x)$ 在 $[0,1]$ 上连续，在 $(0,1)$ 内可导，且 $f(0) = 0$，$f(1) = 1$。
+
+(1) 证明：存在 $\xi, \eta \in (0,1)$，使得 $f'(\xi) \cdot f'(\eta) = 1$；
+
+(2) 若进一步设 $f(x)$ 在 $[0,1]$ 上二阶可导，且 $f''(x) \geq 0$，证明：$\int_0^1 f(x) dx \leq \frac{1}{2}$。
+
+**18.** 已知三阶矩阵 $A$ 满足：$A$ 的特征值为 $1, 2, 3$，对应的特征向量分别为 $\alpha_1 = \begin{pmatrix} 1 \\ 1 \\ 1 \end{pmatrix}$，$\alpha_2 = \begin{pmatrix} 1 \\ 0 \\ -1 \end{pmatrix}$，$\alpha_3 = \begin{pmatrix} 1 \\ -2 \\ 1 \end{pmatrix}$。
+
+(1) 求矩阵 $A$；
+
+(2) 计算 $A^{10} - 3A^5 + 2E$ 的特征值；
+
+(3) 判断矩阵 $B = A^2 - 4A + 3E$ 是否可逆，若可逆，求 $B^{-1}$。
+
+**19.** 设函数 $f(x) = \frac{1}{1+x^2}$。
+
+(1) 求 $f(x)$ 在 $x = 0$ 处的 $n$ 阶泰勒公式（含拉格朗日余项）；
+
+(2) 利用泰勒公式计算极限 $\lim_{x \to 0} \frac{1-\cos x - \frac{x^2}{2}(1-x^2)}{\sin^4 x}$；
+
+(3) 证明：当 $|x| < 1$ 时，$\left|\frac{1}{1+x^2} - \sum_{k=0}^{n} (-1)^k x^{2k}\right| < \frac{|x|^{2n+2}}{1-|x|^2}$。
+
+**20.** 设随机变量 $X_1, X_2, \ldots, X_n$ 相互独立且都服从 $[0,\theta]$ 上的均匀分布，其中 $\theta > 0$ 为未知参数。
+
+(1) 求参数 $\theta$ 的矩估计量和最大似然估计量；
+
+(2) 设 $Y = \max\{X_1, X_2, \ldots, X_n\}$，求 $Y$ 的概率密度函数和数学期望；
+
+(3) 证明：$\hat{\theta} = \frac{n+1}{n}Y$ 是 $\theta$ 的无偏估计，并比较 $\hat{\theta}$ 与最大似然估计量的方差。
+
+**21.** （综合题）设区域 $D = \{(x,y): x^2 + y^2 \leq 1, x \geq 0, y \geq 0\}$，函数 $u(x,y)$ 在 $D$ 上连续，在 $D$ 的内部具有连续的二阶偏导数，且满足：
+
+$$\frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} = -1$$
+
+边界条件：$u(x,y) = 0$ 当 $(x,y) \in \partial D$。
+
+(1) 利用格林公式证明：$\iint_D u(x,y) dxdy = \frac{\pi}{8}$；
+
+(2) 设 $A = \begin{pmatrix} a & b \\ c & d \end{pmatrix}$ 是可逆矩阵，变换 $T: \begin{pmatrix} x \\ y \end{pmatrix} = A \begin{pmatrix} u \\ v \end{pmatrix}$ 将区域 $D$ 映射为区域 $D'$。若要使 $D'$ 仍为第一象限内的单位圆的四分之一，求矩阵 $A$ 的所有可能形式；
+
+(3) 在变换 $T$ 下，若新函数 $w(u,v) = u(x,y)|J|^{1/3}$（其中 $J = \det(A)$）在 $D'$ 上的积分值与原函数 $u(x,y)$ 在 $D$ 上的积分值相等，求 $|J|$ 的值。
+
+---
+
+**注意事项：**
+1. 答案必须写在答题纸上，写在试卷上无效。
+2. 解答题必须写出主要的推理、计算过程。
+3. 本试卷设计注重考查数学思维的深度和综合运用能力。
